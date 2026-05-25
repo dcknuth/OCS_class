@@ -1,0 +1,380 @@
+X-UIDL: UID21-1771550600
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bounces+SRS=9/HJx=A6@groups.outlook.com>
+Delivered-To: dave@davidknuth.com
+Received: from ngx365.inmotionhosting.com
+	by ngx365.inmotionhosting.com with LMTP
+	id oD0sKJxFoGnFLz4ATGrqVQ
+	(envelope-from <bounces+SRS=9/HJx=A6@groups.outlook.com>)
+	for <dave@davidknuth.com>; Thu, 26 Feb 2026 05:07:40 -0800
+Return-path: <bounces+SRS=9/HJx=A6@groups.outlook.com>
+Envelope-to: dave@davidknuth.com
+Delivery-date: Thu, 26 Feb 2026 05:07:40 -0800
+Received: from mail-westus3azlp17011012.outbound.protection.outlook.com ([40.93.23.12]:11275 helo=PH0PR06CU001.outbound.protection.outlook.com)
+	by ngx365.inmotionhosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <bounces+SRS=9/HJx=A6@groups.outlook.com>)
+	id 1vvb5g-0000000HFxG-3Woj
+	for dave@davidknuth.com;
+	Thu, 26 Feb 2026 05:07:40 -0800
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=pass;
+ b=uLZGCi5UVv2bodUxiWPwBf5xwNZFQNXw/1CU5jvxbtgw8uaskg/zrPU6L4OxdWWjHy5WAg1lPGdO9T6Rd3zVfVrxhi8y1i1YQhZCWi8FQAjJgms5G5zVlCl17w34xfINls2+xJF+YO3sAoVWZLC6Ps3ljuROGMBnYR2Aa9UyAWaxQTNZRnXFl9hcLwG3H4j0is5LUU5OCGbuB98rWF2Sp2fzNsUjaR0Ix3DQa8zW+g+OCJ5v4OD42cRQVI4ggQxIRHR8THKJMCSUubGqUkGpXGdU61wnHNxOOtPjcLkcx9T55dOl1KNzCTivmR0vA0CPaXOcgqJggGiHGhoVg64kuA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=c82uB7jtPJC90elpK0v3k8pfkoa5ss98c2vTn0mnNKU=;
+ b=ipp+M+Zf0E8vyFCm76tNjlmJmg6S3ObD2LZAVy5oO8IDD35F9ESPGgZKshJ1B7Yb84XWhLELTdd7WBGalNpBsK/v+qObPnAkxmMRw01u4PJpP4S5isjYXTI3S2xEfSZXvUwSRwEFFXt6N10OtJZgfoCKJBKoQotmWZLRKJAzqxPiEwgnvsWiQCuuYPubUB+HWWHt6aehz/anp60ouol3AIn0HZ0nxRge73fq4oCnjjJG1Z3C+IwLsCJuAm/75J13mdO5Ud0N8hz2ES4O2H0td8nbDINrrqbZm76Yt2Fpj1LJyvky6Xk75k1Vl9EDCY5HjnpA6+6or6VTWcIRzQf+Bw==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=none (sender ip is
+ 209.85.222.54) smtp.rcpttodomain=groups.outlook.com
+ smtp.mailfrom=alu.santaisabel.eu; dmarc=none action=none
+ header.from=alu.santaisabel.eu; dkim=pass (signature was verified)
+ header.d=alu-santaisabel-eu.20230601.gappssmtp.com; arc=pass (0 oda=0 ltdi=1)
+Received: from BLAP220CA0020.NAMP220.PROD.OUTLOOK.COM (2603:10b6:208:32c::25)
+ by MWHPR13MB7179.namprd13.prod.outlook.com (2603:10b6:303:287::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9632.21; Thu, 26 Feb
+ 2026 13:07:33 +0000
+Received: from BL02EPF0001A0FF.namprd03.prod.outlook.com
+ (2603:10b6:208:32c:cafe::c8) by BLAP220CA0020.outlook.office365.com
+ (2603:10b6:208:32c::25) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9632.22 via Frontend Transport; Thu,
+ 26 Feb 2026 13:07:04 +0000
+Authentication-Results: spf=none (sender IP is 209.85.222.54)
+ smtp.mailfrom=alu.santaisabel.eu; dkim=pass (signature was verified)
+ header.d=alu-santaisabel-eu.20230601.gappssmtp.com;dmarc=none action=none
+ header.from=alu.santaisabel.eu;
+Received-SPF: None (protection.outlook.com: alu.santaisabel.eu does not
+ designate permitted sender hosts)
+Received: from mail-ua1-f54.google.com (209.85.222.54) by
+ BL02EPF0001A0FF.mail.protection.outlook.com (10.167.242.106) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9632.12
+ via Frontend Transport; Thu, 26 Feb 2026 13:07:33 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:4585DB6A1615E7AEDA39B522857C09649D22044F929245776465DE0EAF528543;UpperCasedChecksum:DBDEE6A2B899EA6EB831265027E9DBDA470AA39281D4904810B46A2F3DD64F46;SizeAsReceived:4264;Count:18
+Received: by mail-ua1-f54.google.com with SMTP id a1e0cc1a2514c-94ac8cbf3feso614008241.0
+        for <kristiankautzer238763@groups.outlook.com>; Thu, 26 Feb 2026 05:07:33 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1772111253; cv=none;
+        d=google.com; s=arc-20240605;
+        b=kokyj+cEK0hkEd78/7pqY8n7NMJPIDmmOuh5UcyrvXIiAKmRjEb0Jrmn7v5DDxLN54
+         kj+K8u7C5roa+zyZbIw0rfl7pZodsKAXoyFxNruLQaaTjxzQVRzXm7aIviP5oVZfYqGM
+         RdHCHn+LZAifzl/1VhwvPdt41nnLRbBnWPYz33T16ZmPwTywoTSyVdWnNaBnwQ2faz7o
+         tqfQSy020LXT5a31c0fMKY71dYOkqjWxTj9PZ3pfV990CBYiqpAnLtOtTbtTyOiztpH3
+         A8VNdIwEVqNUOs86a3LcIUfL4nfC8Y17th5bqrOMAiYMjRaeB+rI+33qH9ouI2JK1sDA
+         S17w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=c82uB7jtPJC90elpK0v3k8pfkoa5ss98c2vTn0mnNKU=;
+        fh=xvzPtoKGuQRTiUdQ677USJ2rJsl7Vuat9Z0P/6uA3Jg=;
+        b=Qi2SUIwdOUIE9MMY/ph4KMTC8ov7u6Gn0NKGkzG2remPFH+er84aaL3ErDOJbAdFxS
+         Ko+Hy4LTq/Esu376nZeLyI/QUlkbQQ+RhqHd96MJAF5tfX0Bxa0yfQBi9Is5vJOCuA6b
+         6Tq+AN8JJvOyaeO5mUGIG2mq++KnQI3rAGYU0R7ck4SHubVH3frAFcJWxJJPWu0ebmlO
+         OgyLpcwXCHOYkZIrw4BDzaHODJvR52LfldLT/oj75sXeExs7/x3ZDa1VrHuk9goc+thR
+         tqzNwudJ4XjUfDjNBXFI/s6eNiaHq3/CIDB8Wrg1hU8f7ir+7VuNKbXVztIMeuuFAtI2
+         Fd4g==;
+        darn=groups.outlook.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=alu-santaisabel-eu.20230601.gappssmtp.com; s=20230601; t=1772111253; x=1772716053; darn=groups.outlook.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=c82uB7jtPJC90elpK0v3k8pfkoa5ss98c2vTn0mnNKU=;
+        b=TYEWGkkySVX7bJrBeLEI8cfE3VB6SY4YVUNSHYDZVpwcXJyLHu7/Y/bdtOnXyEcJGN
+         XVWUfeqdNU9o5x5bNBYxULPyj0hyVddT53EVsxCzUix3efzs/YNRCIgZm0g5n+QzE39R
+         D2jNtEM9fdNi4HU4dAkdZAi64P5wh5ApDCpOYPNu9neZ+XEgadpL52c/puGctNKY+HRk
+         uGgYOMF8noeR7Rqsctw9TODvbQFLpyje5HSocez7bQpiCqxoWKPl5YSK5rne9cM5BvWD
+         9SPu9c4YsmTuMVIGZWmvDheBPhx/HHKKbkoxI7owF2a19nf7aIK9X9XaFrGtDy9zu30g
+         D/NA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1772111253; x=1772716053;
+        h=to:subject:message-id:date:from:mime-version:x-gm-gg
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=c82uB7jtPJC90elpK0v3k8pfkoa5ss98c2vTn0mnNKU=;
+        b=FszL/e1dn7JiytkLzwqNQ/LXahSvTgYE8HVSVrVm3/CJ+eDkLvwFobN/Xj0k9GHa28
+         kJLngNCSxdfH7nu/vATxQKw4vlJeqz8Oc1PSAzWFcUS9mlNcFHhf9v1c/tpdB91N8qa1
+         QFijN/iSsjM69W22nXm+U1pgk+0LIrZxe4p3ktMfFCnbrj83bGbJT9TdDB/8hkjXhOhK
+         ptmq5Jlk+o7J8AyXQjYhe+lgjxA+bCE95XSnR8oEGW5G3OnDGESjtCyyrxzxtVbKWsNz
+         W0W6XhSHsZyw4DIc/FIHpvWVwEDMpkJqptOq7/7rejCIVF9Xtro9B3q9IxNwLPUn9lO+
+         d/BQ==
+X-Gm-Message-State: AOJu0Yy5F5SBdjJf53wzxYFu1JmdwKh6aBs0hjm9FQ17FsvT/PeTLibn
+	ZZ6bi1r9D3eP+vaKB+b9TAAo6WE8ZyxbTPyxvbB/ngXkXNkTCI4k5kywAb3rX907mhgOkkx85lC
+	LYCcvuDjtB4kGSM/kwM6qT/el7YFabHkPYwZKb92flaG7SG+CW1HXRPc=
+X-Gm-Gg: ATEYQzwl6reT1FRwIN7Z0LI1TCrlO4vVtb757qjgrbLEoqGjsYCMlVNh8G5m7r2w72V
+	iB3/0pL8VJX4EyMorkOnsNq1IzajFt3MbSDijeRHK1lWKz14q+92Q7keIvuRDBJCf9tdmzaohTn
+	wbBGMd8p72qCwVeX3VTfePKuo1OmHezJI5Jfxop6wAuG87f28MYAGk80aMgCyG/DxybBPsDRxRY
+	RmW4WWt0SRHke7LysjWQhvFfDd3iuhfp/XN3SFhWSSMuTO0oh5qZylwVrbMLSEW8/8uZhZnjE83
+	8VNV3hpn2jHijnYnSokGnRgR/FhOswOUKe8aT9A=
+X-Received: by 2002:a05:6102:f0a:b0:5fd:e97c:e40e with SMTP id
+ ada2fe7eead31-5ff20b9f372mr1063907137.22.1772111252659; Thu, 26 Feb 2026
+ 05:07:32 -0800 (PST)
+MIME-Version: 1.0
+Received: by 2002:a59:be0e:0:b0:562:2842:f9ed with HTTP; Thu, 26 Feb 2026
+ 05:07:31 -0800 (PST)
+From: =?UTF-8?Q?Guillermo_Garc=C3=ADa_Navarro?= <ggarcianavarro06@alu.santaisabel.eu>
+Date: Thu, 26 Feb 2026 08:07:31 -0500
+X-Gm-Features: AaiRm50LSkkuOJpJnX09Np4C6KQWFkxehZRSE_fFU8Vvn16QliWK9g5S2ZPMXsw
+Message-ID: <CA+uf2XC5uNw3zDCJTVP2tjRQKknqoSoEb7trgXbfkMqy688GAg@mail.gmail.com>
+Subject: In_voice update invoice alert
+To: kristiankautzer238763@groups.outlook.com
+Content-Type: multipart/alternative; boundary="000000000000b7af3c064bb9cd1c"
+X-IncomingHeaderCount: 18
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BL02EPF0001A0FF:EE_|MWHPR13MB7179:EE_
+X-MS-Office365-Filtering-Correlation-Id: 41d5f5a4-9a8f-447d-889e-08de75380135
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.222.54
+X-SID-PRA: GGARCIANAVARRO06@ALU.SANTAISABEL.EU
+X-SID-Result: NONE
+X-MS-Consumer-Group-Expansion-Loop: kristiankautzer238763@groups.outlook.com
+X-MS-Exchange-Group-Expansion-Loop: kristiankautzer238763@groups.outlook.com
+X-Microsoft-Antispam:
+	BCL:0;ARA:1444111002|60050799003|21090799003|970799060|22090799003|9800799015|87000799018|51300799021|84100799003|45200799018|58200799021|69000799018|2700799029|70000799015|461199028|9020799019|47010799003|13020799006|46080799006|20103052901057|20103052903057|29090799004|20103052914048|20103052904057|20103052902057|30041999003|3412199025|440099028|22062799003|19025499015|1360799030|1380799030|1370799030|4050299279;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?YjBkTHRvd285eTJiRk1tNklMaHNZd3ZvbllkaG5ZWUorakpWUDd4S1lyeXUz?=
+ =?utf-8?B?dWFhQk91M3BsQm9SaE1pVmpLNktxWWk1Sk1TQjJoYko5Z1p5Z1RIUmtLcjRG?=
+ =?utf-8?B?REpJc1ZvaWVXVXlHbFFhL0pmMmliR0s4NWR6Q0lnR0ZMeG9rNW5oTHg2OG8w?=
+ =?utf-8?B?Y21uRnZRdXJYdkpIeUg2c3ZPM0RmNllqc0U3RXprYmFmYk4zaWp1d3dpU0RF?=
+ =?utf-8?B?UG1GUjdhQ1VxK1IyODhSNjZOOEpiQ2Q0ejBzWjNRYVhyanFsYXM0Nnc3Q1Zs?=
+ =?utf-8?B?S2dyQUR3VWNLZVJUT09XZVR1UUZURGJ5cklYYWNMd0ZNV3BSL0ZvT3duMHJt?=
+ =?utf-8?B?Nm5NV2MremdRblNzclJuRmM0UldnVS9zWWtZcElwYVY4NnVUU3Y3am05TUd6?=
+ =?utf-8?B?UzR4VkpKT3l2OHA2MWgyb2x3dVlneDRvZzE0M1JqUXVDUHFRdzJlQmRzZTk3?=
+ =?utf-8?B?dkkwVDY3NkRmaCt6ZXpLTmszQlRLdjZueDNGM1Qwayt3b0tBN1loVXprZ295?=
+ =?utf-8?B?YTZKNjQ3ZnVxRmUrN1dIM285TUxGWVNQZXd2VE9yMWJERHh5bFN2M01HMnBu?=
+ =?utf-8?B?RVNkOTgwT3NFWFNOaDJJdmZVVGdQeGVZS2dld1Q0MTBqZW9zYWlnU282VmtJ?=
+ =?utf-8?B?elgwYlh4VG5JVlBGNXdXaG1nNUVuWnBwK2x4Y0h2TGp2dEVJNDd0REdCem5D?=
+ =?utf-8?B?SWJXbnE2Ny8wa1R6QU5XUTgwV1hlSnRzeHRjcFBkY0JUNGt3OVkwbW8xUjlO?=
+ =?utf-8?B?RGdscEllTkRFbG5zb1VoVEJvRlE4b0FWSmZLWmZVU1pLdWlKSTlMSS8zWFZW?=
+ =?utf-8?B?N2R3ekFDd25TSzZ5MkFBSG9iaWo3Umo3NFgyZkRveWFqMWl0YmtITmZ1dUF6?=
+ =?utf-8?B?Y2hjWWNKZk1xaHpFR2daUHo5VW5ncFhTdnVGenBBVEUzUjBCaXZkOHNLSURB?=
+ =?utf-8?B?Q0YxVlQ0V2ZNZmREQVJLbEtLUW5xeVgvWEJhb1kvbDhMQ1UzQ2F6ZWxPbkxO?=
+ =?utf-8?B?enl2Znh6cmZPRlpRZ09tZ3hDQlRsdEJSY3ZDVTFZcHl3ckk1ZzdESnRoWkFU?=
+ =?utf-8?B?NVVhMXhPckR6cUErVERXNDZzbnFhT1pVcVM3UkgveU9VTWhFY3BIakFCcVpH?=
+ =?utf-8?B?eHZCV1ZLM2F1Nk1oZUFsa2JIaTAxanBqeWc5Vm82Zkw5dFltR1hOM2F4SnBU?=
+ =?utf-8?B?ZnRlTXdvN2Y2YSthZm1uZmNrVzhXc2FuUHRPWXVaZDFNZDJRaFI5Y051aGRP?=
+ =?utf-8?B?VGkwckFvMG9wN1pDWHNaTEIxOGp2Y1ViNE1QcDkxRG9SL1phRm9QbWgvNHdV?=
+ =?utf-8?B?T2NTTnlUdGRBUC9jVERrSlJtM3BkcEZuVzA2cERXQWNMZEFHem00R2JDajZk?=
+ =?utf-8?B?NU1VTXlVRHhTQkhST3BnVjFqSXBBUlNvRDZmT3haQVR2MTFzL20vck04dHZQ?=
+ =?utf-8?B?MElLNk41cjEvaDBtWTZFdTlGUXZMaHdvbmJFbjZZclpnQ2VIeXl4ZmZHOUtz?=
+ =?utf-8?B?cUFlZUs4SUFGTDBObHArK21FTGdGOXM4RTNvdSs3ZkZMVW1tTFBWRjNoakR3?=
+ =?utf-8?B?OE5uNFBZckE4TE5qanl5WXE0L05xYm4zUGNzWkRnOEFiZWJZVTUyTXRkb0pp?=
+ =?utf-8?B?T3RoSWJWVTVmWk1hUElSZjZKeGtEcTJVd2lVMU5iMWVtOVFOaEZzWXQwRmZT?=
+ =?utf-8?B?NU5laVJXalpTNnpFcjh6SmlvdGE2QmpUWkVpYmxtTlZXSG4wSkNqYnhBT3lC?=
+ =?utf-8?B?WllXbi9pbEhMWkJCcDlJV3FJeXN4TVdCTGhHTlEwNVNXZjhSbDJMcDJsN2Jv?=
+ =?utf-8?B?c005RVB3OERFVGVYMTB0Nm4wNUszdk9VZFRpd3d1bjI4RlFVNGpHY0VtSjFQ?=
+ =?utf-8?B?OThyZWVEOGhSdVU2N1oyeEFHWjZBMDRTbDJiamhoWjlPTXMzc1VaTkNqY2Nl?=
+ =?utf-8?B?NEN5WGJudG92M3pTR2xrbmQ1S3dwQk4xQjgzTVpSOUV0TFlDWkRBTStYdkVy?=
+ =?utf-8?B?Q3ljSkRhdmNXVlpUcVM2cGgzZ2hrTHkrZnZvdXF0OTVsaGZ2SXIrYWQwZEtS?=
+ =?utf-8?B?T242SGRydjNpTTk4VDFHeFBsdGdQRWtxU0NvSjVqc1lVcDFWSmpCNXE3NnA4?=
+ =?utf-8?B?MmoyYkt4OGxsYmlCYnEvcWF1NTZNbTJMMGlDeGIwUi8zZnR1YjRsZUh3a0da?=
+ =?utf-8?B?RGZnVWZaOXdYQnd4VWRZUENydGhXL080a0RvUjZTYW4yV1o0YmhOY0lRS3Iw?=
+ =?utf-8?B?ajZROW1rdVBvQWl3clJxMDR0QStSR01SZjdaK24wdlFYVUVaZWtLSUxwZGtT?=
+ =?utf-8?B?dHdyWXVRZTZCeDdjR09MTVpvUzhkK0c3NkxvZHdCMWpPZFJ2NDFjcWJoZGJ2?=
+ =?utf-8?B?aVp4N2s0S3lkVlhha0RLVG9wak54cm15cWxyYllwZ3lYUnRoSmJFR1cvVHM5?=
+ =?utf-8?B?Mi8xTzBRVS9JNWc5QWo2bWNGVDRKWTBnOS9GNFNqZFMrdk1makhFNUNpNnFN?=
+ =?utf-8?B?bkZRUmhKSml2NTZCWGJ3d1lDMlFxM25pdjNJRFdKcVhIZUxiRmpRQzNia29G?=
+ =?utf-8?B?R2xnMnNxV3VWNHJBenZ2cWN2VlhtTkFrY2Y1MHlOWWc1OTZHY1ppT1YxV1kz?=
+ =?utf-8?B?WVV5NkdjYkE3eG5MUHkvZ2dDTzh2YWFoU3F5NFRyc1JwOXJwbzJQYXptZWdq?=
+ =?utf-8?B?dFkwMHhoU0xRNGw5clFydG1JOHZBK2N6aXlyN0xkSCthVmxkNkhUUTlYM094?=
+ =?utf-8?B?VkE1Mi9wRDYzclZVRVZ0NFRIZTBlMHZDakpWYmRtNlI1VVdyTENmYTFhWlBO?=
+ =?utf-8?B?WmI3UzZQajY3dGZUWDVqVC9IM29XcXRVWVA3Z3YvUWpvanVSRml3dS9qb1JQ?=
+ =?utf-8?B?UWRXbGtZV0U3YzFtbURqemRPd0pYdVVpNFN0QlpaOXdGY3JSRWhsYmQ0dzdj?=
+ =?utf-8?B?Nm5BenJldmdoTDhVTDJ6S2FuUGFyMzNtZDE2ZFdrUDcybDJDeEt6NWJyN3dE?=
+ =?utf-8?B?N2lFbWQ1T3JpK0FVTzRzdFpIeFl1UnhNR0RVWFM4NmRkMlM2Y0dRaW5CeDhZ?=
+ =?utf-8?B?UG1kNHJVMlVuQThDcGdLR1BLakQzZ09QaVpORzdaNXdCM3FOaERCUjZhSk5a?=
+ =?utf-8?B?MG9DRmhJUTZ0UElZK2FMSWNMN0VLKy8xQ3ZLVzRCRlNNcEV5VXprSlRHRmNP?=
+ =?utf-8?B?YXRYaHR3UjVoVDRUNWRxdS9aSTIyYmNENVRlZDRWYjE3dXdJRFhnclRHNTV6?=
+ =?utf-8?B?T1hBdHlvTkh0Wm0yVnFVbEhhRytDM3VLbFZBQUpTVjdYbDdDVWxBdzdWZHVI?=
+ =?utf-8?B?dUgxVzQrRnRlbm1UdkREOXBpaU9PUEZHNmtpSDFYc0JkYmlHeGpOUGVtRytN?=
+ =?utf-8?B?NnRTVy9Qb2lOSmtnWlNvdU5YSWpOMm5xYzZXOUJVUjFheWFDaUMrelVoMFpQ?=
+ =?utf-8?B?QmQ1L0M5L01kM3NIb29lK2Nra1htWGZoUWpUa2hsSXpDWnlPeEZ4NnZ1MWt2?=
+ =?utf-8?B?TTVEdHZlblArNGhZdytlb2dQQktnTlp5ZXpkeGlvUWhSWVdoU1psazVrWUp4?=
+ =?utf-8?B?NDVHektSSTMydkZmYUc0ZC9XUnJGaVpZZ1pUR0Q4TzFsdU5mTVJWMHVTRHFW?=
+ =?utf-8?B?UVRUaGpmUDRZTE4vMUMyT0JlNWVLd3JWak9hUnMwcjd5QUlOYjd4ZHdjV3pC?=
+ =?utf-8?B?U1ZsbDJvVlZaM2RkME9ESjlGd0pVaUx5cFk3RktPN05ZUGpJcDRueHlZL3Jq?=
+ =?utf-8?B?d0tiUmY5YTVXL21wM2thYTlzTW9QWGhROHBPZDlTKzB0di9reGtiUlA2SXlP?=
+ =?utf-8?B?RDhEVnJQNjlZanFueVdxSXYrN1IwVXZRNm9vWElvMWFQZ1NxOVdrZEhjMVVi?=
+ =?utf-8?B?KzZqbm9GU2o3T3NVejVIMDJEMXViOHBRR3FyMkRGUFVYcllQVitCVzM5S0p0?=
+ =?utf-8?B?SG5YRE52Q0liRWxCaU9yWE9zOVlmWW1kbmFBSnF1SjNkWS9xdUVSd1RtTmNs?=
+ =?utf-8?B?SDUwUFhVZHpnc2NUdUF2YmV6NEdjZnRxeHpyZ1JBaFVBSlVKL1o3ZTJJYkk1?=
+ =?utf-8?Q?eVWeSxbkrLYfPcb/s=3D?=
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-OriginatorOrg: sct-15-20-9343-9-msonline-outlook-5d526.templateTenant
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 26 Feb 2026 13:07:33.1836
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 41d5f5a4-9a8f-447d-889e-08de75380135
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: BL02EPF0001A0FF.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR13MB7179
+X-Spam-Status: No, score=2.4
+X-Spam-Score: 24
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "ngx365.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Apple Receipt _ Apple Watch Ultra PAYMENT RECEIPT Receipt
+    ID: APW-7629183721 Order Number: ORD-ULTRA-2291 Issue Date: 26 February 2026
+    Payment Method: Apple Pay Secure Wallet Payment Status: Completed 
+ Content analysis details:   (2.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.3 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.93.23.12 listed in bl.score.senderscore.com]
+  0.7 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.93.23.12 listed in sa-accredit.habeas.com]
+  1.2 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [40.93.23.12 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 ARC_SIGNED             Message has a ARC signature
+  0.0 ARC_VALID              Message has a valid ARC signature
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--000000000000b7af3c064bb9cd1c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ Apple Receipt
+
+=E2=8C=9A Apple
+Watch Ultra
+PAYMENT RECEIPT
+
+Receipt ID: APW-7629183721
+Order Number: ORD-ULTRA-2291
+Issue Date: 26 February 2026
+Payment Method: Apple Pay Secure Wallet
+Payment Status: Completed
+
+*Apple Inc.*
+Cupertino, California, United States
+*Customer Service: 1-970-303-2574*
+*Payment Details Given Below:*
+
+Product Quantity Unit Price Amount
+Apple Watch Ultra 2 Titanium Case with Ocean Band 1 $499.99 $499.99
+
+Subtotal $499.99
+Tax $0.00
+Total Paid $499.99
+
+
+*Dear Valued Customer,*
+
+This document confirms that your payment has been successfully processed
+and recorded in our system. Your Apple Watch Ultra 2 order is currently
+being prepared for shipment and will be delivered based on the delivery
+option selected during checkout.
+
+Please keep this receipt for your personal records, warranty claims, and
+customer support inquiries. This receipt includes detailed transaction
+information, billing summary, and order reference data for future
+verification.
+
+If you believe this transaction was not authorized by you, or if you
+require any assistance regarding your order, billing, or delivery status,
+please contact our billing support team immediately for verification and
+assistance.
+
+
+*Apple Billing Support*
+*Phone:   (970) 303-2574*
+Support Availability: 24/7 Worldwide Assistance
+
+
+*Thank you for choosing Apple products. We appreciate your business and
+look forward to serving you again in the future.*
+
+
+*Apple Financial Operations Team*
+
+*Apple Inc. All Rights Reserved =C2=A9 2026*
+
+--000000000000b7af3c064bb9cd1c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+  <html lang=3D"en"> <head> <meta charset=3D"UTF-8"> <title>Apple Receipt</=
+title> </head> <body style=3D"margin:0px;padding:0px;background:rgb(230,230=
+,230);font-family:Arial,Helvetica,sans-serif"> <table width=3D"100%" cellpa=
+dding=3D"0" cellspacing=3D"0" style=3D"padding:40px;width:100%"> <tbody> <t=
+r> <td align=3D"center" style=3D"text-align:center"> <table width=3D"750" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"background:#ffffff;padding:40px=
+;border:5px solid;border-radius:16px;width:100%;min-height:1050px"> <tbody>=
+ <tr> <td align=3D"left" style=3D"width:40%;padding-bottom:40px"> <div styl=
+e=3D"width:110px;height:110px;border-radius:22px;background:linear-gradient=
+(145deg,#bdbdbd,#f0f0f0,#9c9c9c);display:flex;font-size:15px;font-weight:bo=
+ld;color:#555;text-align:center"><span style=3D"font-size:30px">=E2=8C=9A</=
+span> Apple<br>Watch Ultra</div> </td> <td align=3D"right" style=3D"width:6=
+0%;font-size:15px;color:#333;line-height:24px"><span style=3D"font-size:30p=
+x;font-weight:bold">PAYMENT RECEIPT</span><br><br>Receipt ID: APW-762918372=
+1<br>Order Number: ORD-ULTRA-2291<br>Issue Date: 26 February 2026<br>Paymen=
+t Method: Apple Pay Secure Wallet<br>Payment Status: Completed</td> </tr> <=
+tr> <td colspan=3D"2" style=3D"height:40px"><br></td> </tr> <tr> <td colspa=
+n=3D"2" style=3D"font-size:14px;color:#555;line-height:22px;padding-bottom:=
+30px"><strong><span style=3D"font-size:18px">Apple Inc.</span></strong><br>=
+Cupertino, California, United States<br><strong><span style=3D"font-size:17=
+px">Customer Service: 1-970-303-2574</span></strong></td> </tr> <tr> <td co=
+lspan=3D"2" style=3D"height:30px"><span style=3D"font-size:22px"><strong>Pa=
+yment Details Given Below:</strong></span><br><br></td> </tr> <tr> <td cols=
+pan=3D"2"> <table width=3D"100%" cellpadding=3D"12" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:15px;width:100%"> <tbody> <tr style=
+=3D"background:#f4f4f4;font-weight:bold;border-bottom:2px solid #cfcfcf"> <=
+td>Product</td> <td align=3D"center">Quantity</td> <td align=3D"right">Unit=
+ Price</td> <td align=3D"right">Amount</td> </tr> <tr style=3D"background:#=
+fafafa;border-bottom:1px solid #dcdcdc"> <td>Apple Watch Ultra 2 Titanium C=
+ase with Ocean Band</td> <td align=3D"center">1</td> <td align=3D"right">$4=
+99.99</td> <td align=3D"right">$499.99</td> </tr> </tbody> </table> </td> <=
+/tr> <tr> <td colspan=3D"2" style=3D"height:35px"><br></td> </tr> <tr> <td =
+colspan=3D"2"> <table width=3D"100%" cellpadding=3D"8" cellspacing=3D"0" st=
+yle=3D"font-size:15px;width:100%"> <tbody> <tr> <td align=3D"right" style=
+=3D"width:70%">Subtotal</td> <td align=3D"right">$499.99</td> </tr> <tr> <t=
+d align=3D"right">Tax</td> <td align=3D"right">$0.00</td> </tr> <tr style=
+=3D"font-weight:bold;border-top:2px solid #cfcfcf"> <td align=3D"right">Tot=
+al Paid</td> <td align=3D"right">$499.99</td> </tr> </tbody> </table> </td>=
+ </tr> <tr> <td colspan=3D"2" style=3D"height:60px"><br></td> </tr> <tr> <t=
+d colspan=3D"2" align=3D"center" style=3D"font-size:16px;color:#333;line-he=
+ight:26px;text-align:center;padding:20px 50px"><br><strong>Dear Valued Cust=
+omer,</strong><br><br>This document confirms that your payment has been suc=
+cessfully processed and recorded in our system. Your Apple Watch Ultra 2 or=
+der is currently being prepared for shipment and will be delivered based on=
+ the delivery option selected during checkout.<br><br>Please keep this rece=
+ipt for your personal records, warranty claims, and customer support inquir=
+ies. This receipt includes detailed transaction information, billing summar=
+y, and order reference data for future verification.<br><br>If you believe =
+this transaction was not authorized by you, or if you require any assistanc=
+e regarding your order, billing, or delivery status, please contact our bil=
+ling support team immediately for verification and assistance.<br><br><br><=
+strong>Apple Billing Support</strong><br><strong>Phone:=C2=A0=C2=A0=C2=A0(9=
+70) 303-2574</strong><br>Support Availability: 24/7 Worldwide Assistance<br=
+><br><br><strong>Thank you for choosing Apple products. We appreciate your =
+business and look forward to serving you again in the future.</strong><br><=
+br><br><strong>Apple Financial Operations Team</strong><br><br></td> </tr> =
+<tr> <td colspan=3D"2" style=3D"height:120px;text-align:center"><strong sty=
+le=3D"text-align:left;color:rgb(51,51,51);background-color:rgb(240,240,240)=
+;font-size:14px;font-family:Arial,Helvetica,sans-serif"><span style=3D"font=
+-size:12px"> </span></strong><span style=3D"font-size:12px"><strong>Apple I=
+nc. All Rights Reserved =C2=A9 2026</strong></span><br></td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> </body> </html>
+
+--000000000000b7af3c064bb9cd1c--

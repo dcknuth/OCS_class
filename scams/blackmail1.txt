@@ -1,0 +1,113 @@
+﻿ Don’t Ignore This Email
+Subject:
+Don’t Ignore This Email
+From:
+no-reply@autoserve1.com
+Date:
+1/7/2025, 8:04 AM
+To:
+david@davidknuth.com
+X-Account-Key:
+account2
+X-UIDL:
+UID66176-1326388932
+X-Mozilla-Status:
+0001
+X-Mozilla-Status2:
+00000000
+Return-Path:
+<bounce+ea71ef.29a46-david=davidknuth.com@autoserve1.com>
+Delivered-To:
+dave@davidknuth.com
+Received:
+from walpopproxy06.int.bizland.net ([10.1.15.4]) by walpop10.int.bizland.net with LMTP id yPAaJ5RQfWfCKQAA3CKdkA (envelope-from <bounce+ea71ef.29a46-david=davidknuth.com@autoserve1.com>) for <dave@davidknuth.com>; Tue, 07 Jan 2025 11:04:36 -0500
+Received:
+from walmailscan04.int.bizland.net ([10.1.15.4]) by walpopproxy06.int.bizland.net with LMTP id uNwCJ5RQfWfmFQAATe3MEA (envelope-from <bounce+ea71ef.29a46-david=davidknuth.com@autoserve1.com>) for <dave@davidknuth.com>; Tue, 07 Jan 2025 11:04:36 -0500
+Return-path:
+<bounce+ea71ef.29a46-david=davidknuth.com@autoserve1.com>
+Envelope-to:
+david@davidknuth.com
+Delivery-date:
+Tue, 07 Jan 2025 11:04:36 -0500
+Received:
+from [10.114.3.12] (helo=walimpinc12) by walmailscan04.yourhostingaccount.com with esmtp (Exim) id 1tVC4K-0000Ji-Dm for david@davidknuth.com; Tue, 07 Jan 2025 11:04:36 -0500
+Received:
+from a225-30.mailgun.net ([143.55.225.30]) by bizsmtp with ESMTP id VC4Jto9l08xj3VC4KtwE42; Tue, 07 Jan 2025 11:04:36 -0500
+X-EN-SP-DIR:
+IN
+X-EN-SP-SQ:
+1
+X-EN-OrigIP:
+143.55.225.30
+X-EN-IMPSID:
+VC4Jto9l08xj3VC4KtwE42
+DKIM-Signature:
+a=rsa-sha256; v=1; c=relaxed/relaxed; d=autoserve1.com; q=dns/txt; s=mailo; t=1736265873; x=1736273073; h=Content-Type: Content-Transfer-Encoding: Message-Id: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender: Sender; bh=kOMFnVzh100HFPkpU2NcGmHYOwWxj91A7nkdUvlhHqw=; b=vdNs7fFkoIyYx/gqOgJjkgoQ3FE0x8LWZNcjH3WqeiqdBw3xrcnDAQTo//hZKyrNnFsh0SW/h+V2OWulJLwCQg3L6miLKbPP1wTr/4YWm0AWGvxeOWkHjtRz4h2uXzM91UI5x+Lrs3kP/y3qWP/E21yZ2XuAthRDxWAljOM63zo=
+X-Mailgun-Sending-Ip:
+143.55.225.30
+X-Mailgun-Sid:
+WyI0YmZkYiIsImRhdmlkQGRhdmlka251dGguY29tIiwiMjlhNDYiXQ==
+Received:
+by e87a65747130 with HTTP id 677d508e782bad9ae9e1b2e3; Tue, 07 Jan 2025 16:04:30 GMT
+Sender:
+no-reply@autoserve1.com
+MIME-Version:
+1.0
+Message-ID:
+<20250107160430.f7c923d894194e94@autoserve1.com>
+Content-Transfer-Encoding:
+7bit
+Content-Type:
+text/plain; charset=ascii
+X-CMAE-Envelope:
+MS4wfBlbbjvuUcJt+C8YuzxNR/pqWj1YI58lj+KGXInAmFa5NoiUKqIjoLvxiwkdCubon82aea21McYiMguxxu0ajmdBXYy1uYpA0UKbW3FcAVQ5B7hUJgf+ WZ7jQgVZkaXBlB1f++DNzzOZ95AgUmODGiGtR+v8gcz+siC5tRnDPScktFmWhqEzSaLiSHyCuJcm+03lKQr300oFCmokgnOuzNXpg84LDndFGmx9ZrLgI581
+
+Hello,
+
+You're in big trouble. But don't start panicking. Listen to me first, because every problem has a solution.
+You've now caught the attention of an international hacker group, and things like that don't tend to bode well for anyone.
+I'm sure you've heard of Anonymous.
+Well, compared to us, they're a bunch of amateurs. We're a global network of thousands of professionals, each with their own role.
+Someone hacks into administrative and government networks, someone works with spy agencies, and someone else (including me) deals with people like you to maintain our group's infrastructure.
+"What do you mean by people like me?" - that's probably what you're asking yourself right now.
+The answer is simple: people who watch highly controversial and problematic pornography, let's put it this way, the kind that most people would consider perverted. But definitely not you!
+So that you have no doubts, I'll explain how I found out about it. Two months ago, my colleagues and I installed spyware on your computer and then gained access to all your devices, including your cell phone.
+It was very simple - one of those multiple pop-ups on porn sites was our own doing.
+I think you've already understood that we wouldn't be writing to a normal person who watches "normal" or even hardcore porn - there's nothing out of the ordinary about that.
+But the things you tend to watch go beyond the bounds of reason.
+So after we took over the cameras on your cell phone and computer, we recorded you masturbating to extremely problematic videos.
+We have a close-up of you with a small square on the right showing the videos you're pleasuring yourself to.
+However, as I mentioned earlier, every problem has a solution, because even the most depraved pervert deserves forgiveness.
+You're lucky today because I'm not some sadist who enjoys other people's suffering. The only thing I care about is money.
+Here is your lifeline: 
+
+You must transfer $1000 worth of Bitcoin to the following BTC wallet:
+
+bc1quqs96pvmhu30pp3sar3fz8de9lgxxqugtqwl9n
+
+Send a screenshot of the payment to this email:
+ pay@ecore.mx
+
+
+You have exactly 6 hours to make the transfer, so you better act fast.
+As soon as I receive confirmation of the transfer, I will delete all the discriminatory content and remove our virus from your computer permanently. Trust me, I always stand by my word.
+Even when I give it to less respectable people. Because it is really impersonal, it is nothing more than a hobby for me.
+You can find out how to buy Bitcoin using search engines like Google, seeing as it is not very difficult.
+Or go to a website called "ramp alchemy pay " "moonpay" 
+
+Buying, selling and trading Bitcoin coins 
+If I do not receive the payment, I will send all your videos to each of your contacts on Messenger and by email.
+Relatives, loved ones, colleagues, friends - everyone you have ever communicated with will receive the videos.
+I am sure you understand very well that you will never be able to clear your name after something like this.
+Everyone will remember you as a twisted pervert. Your life will be completely ruined and most likely only a rope around your neck will save the situation.
+If you have never dealt with cryptocurrencies before, I think you will have no trouble figuring this out. Just type "crypto transfer" in the search bar and pay with a credit card. Besides, based on your search history, you are an experienced Internet user.
+When you feel like it, you delve into the darkest corners of the Internet, so I am sure you will be able to find out what is going on.
+Here are a few things that my colleagues and I should warn you about:
+Do not respond to this email. Do you really think we are stupid enough to provide a real email address? This is a temporary email. It was deleted forever as soon as I clicked "send".
+Forget about calling the police. As soon as I see you trying to contact them, the discriminatory content will be out in the open. Don't forget, I have access to all your devices, and I can also track your every move.
+Don't reboot your devices and don't try to get rid of them. It won't help you in any way. Look up - my all-seeing eye is tracking your every move. I won't have any trouble finding you.
+I'm sorry we met under such circumstances. Everything would probably have turned out differently if you had been more careful with what you do online.
+Take care of yourself from now on, because even things you previously thought were insignificant can ruin your life in the future like the butterfly effect.
+I hope this is where we part ways forever. However, that's up to you.
+PS. The countdown has begun. It's all in your hands
+

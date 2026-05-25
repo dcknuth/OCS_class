@@ -1,0 +1,114 @@
+﻿ Your 32,187 points are about to expire.
+Subject:
+Your 32,187 points are about to expire.
+From:
+American Express <Donotreply@americanexpress-reward00224.ink>
+Date:
+3/24/2026, 10:14 AM
+To:
+<DAVE@DAVIDKNUTH.COM>
+X-Account-Key:
+account2
+X-UIDL:
+UID100-1771550600
+X-Mozilla-Status:
+0001
+X-Mozilla-Status2:
+00000000
+Return-Path:
+<Donotreply@americanexpress-reward00224.ink>
+Delivered-To:
+DAVE@DAVIDKNUTH.COM
+Received:
+from ngx365.inmotionhosting.com by ngx365.inmotionhosting.com with LMTP id YIGRCm/GwmmJRTMATGrqVQ (envelope-from <Donotreply@americanexpress-reward00224.ink>) for <DAVE@DAVIDKNUTH.COM>; Tue, 24 Mar 2026 10:14:23 -0700
+Return-path:
+<Donotreply@americanexpress-reward00224.ink>
+Envelope-to:
+DAVE@DAVIDKNUTH.COM
+Delivery-date:
+Tue, 24 Mar 2026 10:14:23 -0700
+Received:
+from americanexpress-reward00224.ink ([34.186.236.223]:33907) by ngx365.inmotionhosting.com with esmtps (TLS1.3) tls TLS_AES_256_GCM_SHA384 (Exim 4.99.1) (envelope-from <Donotreply@americanexpress-reward00224.ink>) id 1w55Kh-0000000EO9D-1SFc for DAVE@DAVIDKNUTH.COM; Tue, 24 Mar 2026 10:14:23 -0700
+DKIM-Signature:
+v=1; a=rsa-sha256; c=relaxed/relaxed; s=mail; d=americanexpress-reward00224.ink; h=Message-ID:From:To:Subject:Date:MIME-Version:Content-Type: Content-Transfer-Encoding:List-Unsubscribe; i=Donotreply@americanexpress-reward00224.ink; bh=QWfnYsWnbGdB365ytsmmJF6vc+UZeC+FWIzuqP1PXek=; b=en9TrRJy655RrvNCbNEaxYk/M19srvVfL9e4gMxszwze6zdozHthyMlM2b7wJ+dPeYt5ybqMhle1 j5unlwnzgGC/rXV9VfIRSU7xNdGvaZTRp5AJqpQJqGJJrodUSckmG0q1mIbBUf/PN2MbZezGZ6B0 ZZv7fZ+V74PFDnzAWnfzK49wb0C59nCiVafQzKj7vZeJS3FxlunfZtJbtwnDKHzjNR2XAt4J7s3d U/n12UUnNFtGGqCJcJSbPGsZ37TX7/XnZe6DkTea54NqzrLVEceygoCbpewKQbo9fkQ3FoCY+ixc suqDcNUtK19cpEaB+RrFje6rbk04YHXB95CXew==
+Message-ID:
+<ee6e9a7109887331d3d875db0af44e1b@americanexpress-reward00224.ink>
+X-Priority:
+3
+X-Mailer:
+SendGrid API
+MIME-Version:
+1.0
+Content-Type:
+text/html; charset="UTF-8"
+Content-Transfer-Encoding:
+base64
+List-Unsubscribe:
+<mailto:unsubscribe@americanexpress-reward00224.ink?subject=Unsubscribe>
+X-Spam-Status:
+No, score=1.9
+X-Spam-Score:
+19
+X-Spam-Bar:
++
+X-Ham-Report:
+Spam detection software, running on the system "ngx365.inmotionhosting.com", has NOT identified this incoming email as spam. The original message has been attached to this so you can view it or label similar future email. If you have any questions, see root\@localhost for details. Content preview: Action Required: Your Points Expire in 3 Days _ American Express Your Membership Rewards points are expiring in 3 days. Redeem for travel, gift cards, statement credits, and more before it's too late.___________ Membership Rewards Content analysis details: (1.9 points, 5.0 required) pts rule name description ---- ---------------------- -------------------------------------------------- 0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to Validity was blocked. See https://knowledge.validity.com/hc/en-us/articles/20961730681243 for more information. [34.186.236.223 listed in bl.score.senderscore.com] 0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to Validity was blocked. See https://knowledge.validity.com/hc/en-us/articles/20961730681243 for more information. [34.186.236.223 listed in sa-trusted.bondedsender.org] 0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to Validity was blocked. See https://knowledge.validity.com/hc/en-us/articles/20961730681243 for more information. [34.186.236.223 listed in sa-accredit.habeas.com] 1.9 URIBL_ABUSE_SURBL Contains an URL listed in the ABUSE SURBL blocklist [URI: exchangelink00119.ink] -0.0 SPF_PASS SPF: sender matches SPF record -0.0 SPF_HELO_PASS SPF: HELO matches SPF record -0.1 DKIM_VALID_EF Message has a valid DKIM or DK signature from envelope-from domain -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's domain -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature 0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily valid 0.1 MIME_HTML_ONLY BODY: Message only has text/html MIME parts 0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to background 0.0 HTML_MESSAGE BODY: HTML included in message
+X-Spam-Flag:
+NO
+
+Action Required: Your Points Expire in 3 Days – American Express
+Your Membership Rewards points are expiring in 3 days. Redeem for travel, gift cards, statement credits, and more before it's too late.͏͏͏͏͏͏͏͏͏͏͏
+American Express 	Membership Rewards
+
+Points Expiration Status
+	
+
+90% of your points validity period has elapsed
+
+Only 3 Days Left
+
+Your points balance will be forfeited after the expiration date.
+
+Dear Cardmember,
+
+We're reaching out because your Membership Rewards points are scheduled to expire in 3 days. Once expired, points cannot be reinstated. We've outlined your redemption options below to help you make the most of your rewards before the deadline.
+
+✈️
+
+Travel Rewards
+
+Flights • Hotels • Packages
+		
+
+🎁
+
+Gift Cards
+
+100+ Brands • Instant Use
+
+🛍️
+
+Shopping
+
+Premium Merchandise • Top Brands
+		
+
+💳
+
+Statement Credit
+
+Offset Balance • Simple & Fast
+Redeem My Points Now →
+
+Sincerely,
+
+American Express Membership Rewards Team
+
+Please do not reply to this email. Contact Customer Service directly for assistance.
+Don't Live Life Without It
+
+Privacy Statement | Email Preferences | Security Center
+
+The account details above help verify this as a legitimate communication from American Express. To report suspicious emails, visit americanexpress.com/phishing. Please contact Customer Service directly rather than replying to this message.
+
+© 2026 American Express. All rights reserved.  |  UGNENGNTNOT0002

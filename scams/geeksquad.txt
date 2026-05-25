@@ -1,0 +1,101 @@
+﻿ Invoice Ready for Review
+Subject:
+Invoice Ready for Review
+From:
+Eric Walker <eric.walker8f6@lakemadsen.org>
+Date:
+4/9/2026, 1:53 PM
+X-Account-Key:
+account2
+X-UIDL:
+UID164-1771550600
+X-Mozilla-Status:
+0001
+X-Mozilla-Status2:
+00000000
+Return-Path:
+<eric.walker8f6@lakemadsen.org>
+Delivered-To:
+dave@davidknuth.com
+Received:
+from ngx365.inmotionhosting.com by ngx365.inmotionhosting.com with LMTP id AA12J8IR2GmiuBsATGrqVQ (envelope-from <eric.walker8f6@lakemadsen.org>) for <dave@davidknuth.com>; Thu, 09 Apr 2026 13:53:22 -0700
+Return-path:
+<eric.walker8f6@lakemadsen.org>
+Envelope-to:
+dave@davidknuth.com
+Delivery-date:
+Thu, 09 Apr 2026 13:53:22 -0700
+Received:
+from mail-ua1-f78.google.com ([209.85.222.78]:57732) by ngx365.inmotionhosting.com with esmtps (TLS1.3) tls TLS_AES_128_GCM_SHA256 (Exim 4.99.1) (envelope-from <eric.walker8f6@lakemadsen.org>) id 1wAwNP-00000007pOp-3hzw for dave@davidknuth.com; Thu, 09 Apr 2026 13:53:22 -0700
+Received:
+by mail-ua1-f78.google.com with SMTP id a1e0cc1a2514c-950bdef305bso2270302241.3 for <dave@davidknuth.com>; Thu, 09 Apr 2026 13:53:21 -0700 (PDT)
+DKIM-Signature:
+v=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=20251104; t=1775768000; x=1776372800; darn=davidknuth.com; h=from:subject:date:message-id:sender:reply-to:mime-version:from:to :cc:subject:date:message-id:reply-to; bh=hzZD6wARFNyoxnRe2kSmGJbiUnGqazde8rfSNqkXt60=; b=KhXsoEsLmn2lkxGGjmC6oGqpewN5Xa7iC8Qag9Ou0UCoW14Cpzlz2Qcfx9rlhb5Qa3 gWRZjOHn1Zyp2WLyYWQVGe91V7GyEwNq5WKM31V/ylAB1A5YyT78ccKhOZUVyoezGyR8 gvQi+YPBAu5XdtYgkSNooRMgtFEvR7AN+TV9tursZseO7vPFP3WMqhcB9J0i3h+0955R +Siq3TREcDEjAhJqlH2HKaZWcfKjVC/4vz2hW1Cz+Vfna0K5PWc+hjnbDuwrzgrBF+E4 bH6Fyl1vhwg7R+pEz6JxLcMUx8aj+gZ0o4rYAEASKrYCg45FRtErUyE5xKzpKDtNOy9K r+WA==
+DKIM-Signature:
+v=1; a=rsa-sha256; c=relaxed/relaxed; d=lakemadsen-org.20251104.gappssmtp.com; s=20251104; t=1775768000; x=1776372800; darn=davidknuth.com; h=from:subject:date:message-id:sender:reply-to:mime-version:from:to :cc:subject:date:message-id:reply-to; bh=hzZD6wARFNyoxnRe2kSmGJbiUnGqazde8rfSNqkXt60=; b=fyLaZBmOcjs3ZsPsGmYtVOHISa4ZXty7l6kEJPUKnhwtkCgbbIoxZIGFZ969ruFtNO 1eHTfNTMY7zTFJmD1W8S9Rm8MhUz2kv6QD6ggBbDmdyKLQmpDZ8uFpBKDvz3zBmRwB3w S7uMUbwJMl57RQOuGC+BveQ004PjNzHC9au6RM/hjlvB9MydVO21wnsOsJocyzYYa+mv +TpUBqqjvtoCqYDMaFIO4/v9gcJcWGBslCDPjcFuQiRPGpZAccSrN+HKkXtcY82ge4bI 8tOhIiDi87udlINO27MxlTB3i+TEOMR7kFGCISNnE9rPJCGqF/dTYtKoCB+6s6gk9FuB RYpw==
+X-Google-DKIM-Signature:
+v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20251104; t=1775768000; x=1776372800; h=from:subject:date:message-id:sender:reply-to:mime-version :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to; bh=hzZD6wARFNyoxnRe2kSmGJbiUnGqazde8rfSNqkXt60=; b=WAEA/1JR6PwI1xdgPfniENq5gd1SysVPxfmF23vNSvO9y+hBFpu0um1A7NuSFIl68z WEi9o8EVdR7IcJLugtv+9/eZpUjHqUx6LBiVjNaw7mCRYKSQFvLG5EAo2pfJ9FG8mZKC 2kC5Pyt48xU9L4j6v1Y3FNZKC6vmxE4aZT9F2cdRDsKgOh1lM+qMBSHduHsQrn0C8Mji is5yQc3bXiCu7iA+Kr8SUdrdjyD30bp+u5USWKPqMMMbZwZmwd6P1sNDNQqusFOXMD/z VTW455zuGmCO84xP+dEhuoEwgkTOmyBkYARUqpYuIf6Bw0SMHF1NyP4VbhIKyGBAa8Xj 0SPA==
+X-Forwarded-Encrypted:
+i=1; AJvYcCWHtUhFUrRsZpUQGtZfbxP1VDHMrJxjMlMXxrTZxl3ZY+9xeDtDJ/6QVZ9hpuZHYMWqou/l@davidknuth.com
+X-Gm-Message-State:
+AOJu0Yx+sB0MfhudvVPKKtTqGuH0LzSMeGqgiFQXEOQqCup7yBtoAgUm f4FYWRq+uw4iQ9wcCWUJEKd9dCEb6rZij2bFW8yB91Cq+mwj/JKjH+gJFCkWOu91i93XdSyOfpE SeLVjEj+MbicpfnQj1lMAILXHCW2wThk8b/kiAIXeRarS
+MIME-Version:
+1.0
+X-Received:
+by 2002:a05:6122:1796:b0:55b:d85:5073 with SMTP id 71dfb90a1353d-56f3bbe624dmt707979e0c.4.1775768000239; Thu, 09 Apr 2026 13:53:20 -0700 (PDT)
+Reply-To:
+Eric Walker <eric.walker8f6@lakemadsen.org>
+Sender:
+Google Calendar <calendar-notification@google.com>
+Message-ID:
+<calendar-0fc0eac6-26cb-4a92-a7b1-d39b61d72a05@google.com>
+Content-Type:
+multipart/alternative; boundary="000000000000e0b8ca064f0d34f1"
+X-Spam-Status:
+No, score=3.2
+X-Spam-Score:
+32
+X-Spam-Bar:
++++
+X-Ham-Report:
+Spam detection software, running on the system "ngx365.inmotionhosting.com", has NOT identified this incoming email as spam. The original message has been attached to this so you can view it or label similar future email. If you have any questions, see root\@localhost for details. Content preview: Howdy, This is a notification that your current subscription with G__kSquad will automatically renew on . A total amount of $663.60 will be debited from your saved payment method. Invoice Line Items [...] Content analysis details: (3.2 points, 5.0 required) pts rule name description ---- ---------------------- -------------------------------------------------- 0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily valid -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature 1.2 MISSING_HEADERS Missing To: header 0.0 HTML_MESSAGE BODY: HTML included in message 0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to background 1.9 REPLYTO_WITHOUT_TO_CC No description available. -0.0 DKIMWL_WL_MED DKIMwl.org - Medium trust sender
+X-Spam-Flag:
+NO
+
+Invoice Ready for Review
+ 
+
+Howdy,
+
+This is a notification that your current subscription with GϱϱkSquad will automatically renew on . A total amount of $663.60 will be debited from your saved payment method.
+
+Invoice Line Items
+
+**Subscription Details:**
+
+* Product: Essential Coverage Plan
+* Devices Covered:
+* Warranty Period: 48 Months
+* Payment Mode: Auto Debit
+* Total Amount: USD438.12
+
+Client Reference: e60e935b50
+Activation Code:
+
+To avoid renewal or to modify your plan, please contact us at least 48 hours before the renewal date.
+
+For support, reach us at +1 (808) 202-1257.
+
+Best regards,
+Thank You,,
+Geek Squad All-in-One Care
+Operational Head: Mahnaz Perdikis
+Technical Support Number: (808)-225-6634
+: 411 Hayes Street Arlington Tx 76016 United States
+Invoice Ready for Review
+Thursday Apr 9 ⋅ 9pm – Friday Apr 10, 2026 ⋅ 8:30pm (Mountain Standard Time - Phoenix)
+Organizer
+Eric Walker
+eric.walker8f6@lakemadsen.org
+Guests
+(Guest list has been hidden at organizer's request)
