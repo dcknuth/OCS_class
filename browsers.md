@@ -1,6 +1,14 @@
 # Web Browsers
 Most will have the features we will demonstrate with Chrome
 
+## Scam Time: Gas is Expensive
+This one is not digital
+[Someone else pays for your gas](https://www.cbsnews.com/chicago/news/northlake-police-warn-gas-pump-screw-scam/)
+* Simple things still work
+* Always make sure your transaction has ended
+* Does not solve this problem, but prefer to tap, that exchange is encrypted and faster than a chip read
+* Look for added components, this time a screw, but often a skimmer
+
 ## Private mode
 Quick demo
 * Will

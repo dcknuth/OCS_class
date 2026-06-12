@@ -8,7 +8,7 @@ We already covered some of these, but nice to have a list
 * [Snopes](https://www.snopes.com/) Use the search
 * Ask someone you trust
 
-### Scam Time: Even Texas says hang up
+## Scam Time: Even Texas says hang up
 [Customs and Border Protection scam](https://www.cbp.gov/newsroom/local-media-release/cbp-public-phone-scam-continues-target-citizens)
 * Notice that they never leave a message
 * They don't want you to hang up
@@ -32,7 +32,7 @@ If someone has something specific, it's probably illegal and trackable
 Already mentioned, but do think about data you care about and choose a backup method
 * Old school, make regular copies
     - This is what I do  
-    Important data goes on mirrored disk. Then copied weekly or more to RAID NAS. Then copied to an external drive each month. That drive is put in a fire safe. Then last months drive given to friend to store (used to be at work).
+    Important data goes on mirrored disk. Then copied weekly or more to RAID NAS (another failure tolerant storage). Then copied to an external drive each month. That drive is put in a fire safe. Then last months drive is given to a friend to store (used to be at work).
 * Encrypted
 * Apple and Google offer backups
 * Push the data you care about to the location you have backups running
@@ -57,6 +57,14 @@ Quick example with Virtual Box
     - Docker
     - AWS or other cloud rentals
     - Cloud services, we use Google CoLab for the Python course
+
+## ~~Scam Time:~~ Actually, Hack with Us
+Competition Launch: AI Agent Security: Multi-Step Tool Attacks
+[A Kaggle Competition](./kaggle_competition.md)
+* Trying to come up with new attacks to create defenses
+* A bit like bug bounties
+* Kaggle uses Google Colab
+* Seems to echo early Claud model access a bit
 
 ## Passwords
 Good password habits and other things that look like passwords

@@ -37,3 +37,12 @@ Similar to the phone list
 ## Backups
 * You should have some for anything you care about
 * Businesses also have them, up to forever
+
+## Scam Time: AI Mimic
+Has been out for a bit now, AI can clone a voice
+[Fake kidnapping](https://abcnews.com/GMA/News/woman-loses-thousands-scammer-suspected-ai-mimic-daughters/story?id=133307515)
+* Never known anyone who has been kidnapped
+* Call the police
+* Text, but this is not a sure thing (my son can take days to forever to respond when he is fine)
+* Have a safe word, but maybe a question is easier. What would you ask?
+
