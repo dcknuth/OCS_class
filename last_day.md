@@ -16,6 +16,9 @@ After each, let's vote if it is interesting enough to turn into a segment for ne
     - any combo with hack or exploit
     - [my pick](https://www.youtube.com/watch?v=_QdPW8JrYzQ)
 
+## Can you block social media?
+[Computerphile](https://www.youtube.com/watch?v=2jJeSgO_MGo)
+
 ## Run a larger Colab example
 
 ## Find the most interesting hack on a
