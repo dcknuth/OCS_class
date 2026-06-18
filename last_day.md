@@ -1,6 +1,12 @@
 # Last Day
 Since we covered everything pretty fast, some exercises and help to add items for next year
 
+## Voicemail from Stanford
+* Is it for me?
+* Do we call it back?
+* 30 years ago, this might have been a real mis-dial and someone would have needed help getting connected to their doctor
+* Does that mean it targets the elderly?
+
 ## Pod Cast: Can computer hackers get inside your head
 Listen from my device
 
